@@ -1,0 +1,351 @@
+
+*** Running vivado
+    with args -log project_reti_logiche.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source project_reti_logiche.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source project_reti_logiche.tcl -notrace
+Command: synth_design -top project_reti_logiche -part xc7a200tfbg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18048 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 573.445 ; gain = 242.555
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'project_reti_logiche' [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/project_reti_logiche.vhd:51]
+INFO: [Synth 8-3491] module 'compare_and_codify' declared at 'D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/compare_and_codify.vhd:26' bound to instance 'arithmetic_function' of component 'compare_and_codify' [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/project_reti_logiche.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'compare_and_codify' [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/compare_and_codify.vhd:45]
+WARNING: [Synth 8-6014] Unused sequential element difference_reg was removed.  [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/compare_and_codify.vhd:63]
+WARNING: [Synth 8-6014] Unused sequential element OHDifference_reg was removed.  [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/compare_and_codify.vhd:67]
+WARNING: [Synth 8-6014] Unused sequential element zone_in_2bits_reg was removed.  [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/compare_and_codify.vhd:77]
+INFO: [Synth 8-4471] merging register 'o_we_reg' into 'o_done_reg' [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/compare_and_codify.vhd:58]
+WARNING: [Synth 8-6014] Unused sequential element o_we_reg was removed.  [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/compare_and_codify.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'compare_and_codify' (1#1) [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/compare_and_codify.vhd:45]
+INFO: [Synth 8-3491] module 'flipflop_td' declared at 'D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/flipflop_td.vhd:34' bound to instance 'fixed_memory' of component 'flipflop_td' [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/project_reti_logiche.vhd:160]
+INFO: [Synth 8-638] synthesizing module 'flipflop_td' [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/flipflop_td.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'flipflop_td' (2#1) [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/flipflop_td.vhd:45]
+INFO: [Synth 8-3491] module 'flipflop_variable' declared at 'D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/ffd_variable.vhd:34' bound to instance 'variable_memory' of component 'flipflop_variable' [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/project_reti_logiche.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'flipflop_variable' [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/ffd_variable.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'flipflop_variable' (3#1) [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/ffd_variable.vhd:46]
+INFO: [Synth 8-3491] module 'clock_controller' declared at 'D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/clock_controller.vhd:34' bound to instance 'logic_controller' of component 'clock_controller' [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/project_reti_logiche.vhd:179]
+INFO: [Synth 8-638] synthesizing module 'clock_controller' [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/clock_controller.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'clock_controller' (4#1) [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/clock_controller.vhd:48]
+INFO: [Synth 8-3491] module 'fsm_counter' declared at 'D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/fsm_counter.vhd:13' bound to instance 'counter' of component 'fsm_counter' [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/project_reti_logiche.vhd:192]
+INFO: [Synth 8-638] synthesizing module 'fsm_counter' [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/fsm_counter.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'fsm_counter' (5#1) [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/fsm_counter.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'project_reti_logiche' (6#1) [D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sources_1/new/project_reti_logiche.vhd:51]
+WARNING: [Synth 8-3331] design flipflop_td has unconnected port i_data[7]
+WARNING: [Synth 8-3331] design compare_and_codify has unconnected port get
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 646.270 ; gain = 315.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 646.270 ; gain = 315.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg484-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tfbg484-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 646.270 ; gain = 315.379
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "OHDifference" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'fsm_counter'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                sdefault |                    0000000000001 |                             1100
+                      s8 |                    0000000000010 |                             1000
+                      s0 |                    0000000000100 |                             0000
+                      s1 |                    0000000001000 |                             0001
+                      s2 |                    0000000010000 |                             0010
+                      s3 |                    0000000100000 |                             0011
+                      s4 |                    0000001000000 |                             0100
+                      s5 |                    0000010000000 |                             0101
+                      s6 |                    0000100000000 |                             0110
+                      s7 |                    0001000000000 |                             0111
+                swaitone |                    0010000000000 |                             1001
+                swaittwo |                    0100000000000 |                             1010
+               sfinished |                    1000000000000 |                             1011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'fsm_counter'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 646.270 ; gain = 315.379
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 1     
+	  13 Input     13 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 13    
+	   3 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module compare_and_codify 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 1     
+	   3 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module flipflop_td 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
+Module flipflop_variable 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      1 Bit        Muxes := 1     
+Module clock_controller 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
+Module fsm_counter 
+Detailed RTL Component Info : 
++---Muxes : 
+	  13 Input     13 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 13    
+	  13 Input      4 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'arithmetic_function/o_address_reg[4]' (FDR) to 'arithmetic_function/o_address_reg[5]'
+INFO: [Synth 8-3886] merging instance 'arithmetic_function/o_address_reg[5]' (FDR) to 'arithmetic_function/o_address_reg[6]'
+INFO: [Synth 8-3886] merging instance 'arithmetic_function/o_address_reg[6]' (FDR) to 'arithmetic_function/o_address_reg[7]'
+INFO: [Synth 8-3886] merging instance 'arithmetic_function/o_address_reg[7]' (FDR) to 'arithmetic_function/o_address_reg[8]'
+INFO: [Synth 8-3886] merging instance 'arithmetic_function/o_address_reg[8]' (FDR) to 'arithmetic_function/o_address_reg[9]'
+INFO: [Synth 8-3886] merging instance 'arithmetic_function/o_address_reg[9]' (FDR) to 'arithmetic_function/o_address_reg[10]'
+INFO: [Synth 8-3886] merging instance 'arithmetic_function/o_address_reg[10]' (FDR) to 'arithmetic_function/o_address_reg[11]'
+INFO: [Synth 8-3886] merging instance 'arithmetic_function/o_address_reg[11]' (FDR) to 'arithmetic_function/o_address_reg[12]'
+INFO: [Synth 8-3886] merging instance 'arithmetic_function/o_address_reg[12]' (FDR) to 'arithmetic_function/o_address_reg[13]'
+INFO: [Synth 8-3886] merging instance 'arithmetic_function/o_address_reg[13]' (FDR) to 'arithmetic_function/o_address_reg[14]'
+INFO: [Synth 8-3886] merging instance 'arithmetic_function/o_address_reg[14]' (FDR) to 'arithmetic_function/o_address_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\arithmetic_function/o_address_reg[15] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 848.512 ; gain = 517.621
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 849.438 ; gain = 518.547
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 849.438 ; gain = 518.547
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 850.434 ; gain = 519.543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 850.434 ; gain = 519.543
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 850.434 ; gain = 519.543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 850.434 ; gain = 519.543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 850.434 ; gain = 519.543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 850.434 ; gain = 519.543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     2|
+|3     |LUT1   |     2|
+|4     |LUT2   |    14|
+|5     |LUT3   |     4|
+|6     |LUT4   |     4|
+|7     |LUT5   |     7|
+|8     |LUT6   |    11|
+|9     |FDCE   |    12|
+|10    |FDPE   |     1|
+|11    |FDRE   |    38|
+|12    |IBUF   |    11|
+|13    |OBUF   |    27|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------------+-------------------+------+
+|      |Instance              |Module             |Cells |
++------+----------------------+-------------------+------+
+|1     |top                   |                   |   134|
+|2     |  arithmetic_function |compare_and_codify |    18|
+|3     |  counter             |fsm_counter        |    27|
+|4     |  fixed_memory        |flipflop_td        |    24|
+|5     |  logic_controller    |clock_controller   |     8|
+|6     |  variable_memory     |flipflop_variable  |    18|
++------+----------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 850.434 ; gain = 519.543
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 850.434 ; gain = 519.543
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 850.434 ; gain = 519.543
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 862.582 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 967.844 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 967.844 ; gain = 661.785
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 967.844 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.runs/synth_1/project_reti_logiche.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file project_reti_logiche_utilization_synth.rpt -pb project_reti_logiche_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 11 17:19:13 2020...

@@ -1,0 +1,5 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Failure: Simulation Ended!, TEST PASSATO
+Time: 1250 ns  Iteration: 0  Process: /in_first_wz/test  File: D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sim_1/new/in_first_wz.vhd
+$finish called at time : 1250 ns : File "D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sim_1/new/in_first_wz.vhd" Line 135

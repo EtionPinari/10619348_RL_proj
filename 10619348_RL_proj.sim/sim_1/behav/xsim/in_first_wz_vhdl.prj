@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../10619348_RL_proj.srcs/sources_1/new/clock_controller.vhd" \
+"../../../../10619348_RL_proj.srcs/sources_1/new/compare_and_codify.vhd" \
+"../../../../10619348_RL_proj.srcs/sources_1/new/ffd_variable.vhd" \
+"../../../../10619348_RL_proj.srcs/sources_1/new/flipflop_td.vhd" \
+"../../../../10619348_RL_proj.srcs/sources_1/new/fsm_counter.vhd" \
+"../../../../10619348_RL_proj.srcs/sources_1/new/project_reti_logiche.vhd" \
+"../../../../10619348_RL_proj.srcs/sim_1/new/in_first_wz.vhd" \
+
+# Do not sort compile order
+nosort

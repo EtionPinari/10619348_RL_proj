@@ -1,0 +1,10 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.sim/sim_1/synth/func/xsim/auto_tb_func_synth.vhd,1597170843,vhdl,,,,clock_controller;compare_and_codify;flipflop_td;flipflop_variable;fsm_counter;project_reti_logiche,,,,,,,,
+D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sim_1/new/auto_tb.vhd,1597170838,vhdl,,,,auto_tb,,,,,,,,
+D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sim_1/new/in_first_wz.vhd,1596923423,vhdl,,,,in_first_wz,,,,,,,,
+D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sim_1/new/in_last_wz.vhd,1596961498,vhdl,,,,in_last_wz,,,,,,,,
+D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sim_1/new/multiple_starts_in_wz.vhd,1596924059,vhdl,,,,multiple_starts_in_wz,,,,,,,,
+D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sim_1/new/no_Wz.vhd,1596923059,vhdl,,,,no_wz,,,,,,,,

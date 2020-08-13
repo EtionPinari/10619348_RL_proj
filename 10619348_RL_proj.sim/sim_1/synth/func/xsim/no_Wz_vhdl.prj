@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"no_Wz_func_synth.vhd" \
+"../../../../../10619348_RL_proj.srcs/sim_1/new/no_Wz.vhd" \
+
+# Do not sort compile order
+nosort

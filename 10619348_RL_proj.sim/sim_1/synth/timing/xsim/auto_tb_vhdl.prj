@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../10619348_RL_proj.srcs/sim_1/new/auto_tb.vhd" \
+
+# Do not sort compile order
+nosort

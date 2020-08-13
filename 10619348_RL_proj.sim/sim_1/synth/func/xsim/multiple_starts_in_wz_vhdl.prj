@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"multiple_starts_in_wz_func_synth.vhd" \
+"../../../../../10619348_RL_proj.srcs/sim_1/new/multiple_starts_in_wz.vhd" \
+
+# Do not sort compile order
+nosort

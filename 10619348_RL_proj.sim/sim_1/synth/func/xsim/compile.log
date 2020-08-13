@@ -1,0 +1,9 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.sim/sim_1/synth/func/xsim/auto_tb_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clock_controller'
+INFO: [VRFC 10-3107] analyzing entity 'compare_and_codify'
+INFO: [VRFC 10-3107] analyzing entity 'flipflop_td'
+INFO: [VRFC 10-3107] analyzing entity 'flipflop_variable'
+INFO: [VRFC 10-3107] analyzing entity 'fsm_counter'
+INFO: [VRFC 10-3107] analyzing entity 'project_reti_logiche'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Proggetti Reti Logiche/10619348_RL_proj/10619348_RL_proj.srcs/sim_1/new/auto_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'auto_tb'
